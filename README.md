@@ -1,16 +1,16 @@
-# 🛡️ Projet de Détection d'Intrusion Réseau (NIDS) basé sur Machine Learning
+# Projet de Détection d'Intrusion Réseau (NIDS) basé sur Machine Learning
 
-## 📝 Description du Projet
+## Description du Projet
 
 Ce projet est un Travail Pratique (TP) visant à implémenter et comparer deux modèles de classification (Random Forest et Arbre de Décision) pour la détection d'intrusions réseau. L'objectif est de distinguer le trafic réseau normal du trafic anormal (simulations d'attaques) à l'aide de données capturées via Wireshark.
 
-### 🎯 Objectifs Principaux
+### Objectifs Principaux
 
 * **Prétraitement de Données :** Transformer des captures brutes (paquets) en caractéristiques exploitables par un modèle ML.
 * **Classification Binaire :** Entraîner des modèles à prédire si un paquet est `Normal (0)` ou `Anormal (1)`.
 * **Évaluation Critique :** Analyser la performance (Accuracy, Precision, Recall) des modèles et identifier les biais (ex: dépendance aux adresses IP).
 
-## ⚙️ Architecture et Données
+##  Architecture et Données
 
 Le laboratoire virtuel utilise une configuration de base pour simuler le trafic :
 
